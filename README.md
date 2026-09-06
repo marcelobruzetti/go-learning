@@ -1,10 +1,10 @@
 # 🐹 Go Learning Journey
 
-A repository documenting my journey learning **Go**, with a focus on understanding the language idiomatically and applying it to **backend engineering, concurrent systems, and cloud-native applications**.
+This repository documents my journey learning **Go**, with a focus on understanding the language idiomatically and applying its concepts to **backend engineering, concurrent systems, and cloud-native applications**.
 
 I'm an experienced backend software engineer primarily working with **Node.js, TypeScript, PostgreSQL, GraphQL, and cloud environments**.
 
-Rather than learning programming from scratch, my goal here is to understand **how Go developers design and solve problems**, explore Go's philosophy of simplicity and explicitness, and apply the language to production-oriented backend systems.
+I'm not learning programming from scratch. My goal is to understand **how Go developers think and solve problems**, explore the language's philosophy of simplicity and explicitness, and gradually apply what I learn to production-oriented backend systems.
 
 ---
 
@@ -12,81 +12,41 @@ Rather than learning programming from scratch, my goal here is to understand **h
 
 * Write clean and idiomatic Go
 * Understand Go's design philosophy and conventions
-* Explore Go tooling, testing, and project structure
-* Build robust backend APIs and services
+* Become comfortable with Go's standard library
 * Understand Go's concurrency model
-* Explore performance and resource efficiency
-* Build cloud-native and containerized applications
-* Compare Go patterns with my experience in Node.js/TypeScript
+* Explore testing, benchmarking, and profiling
+* Build robust backend services with Go
+* Explore cloud-native development with Go
+* Compare Go's approach with my experience in Node.js/TypeScript
 
 ---
 
-## 📂 Repository Structure
+## 🧩 Exercism
+
+I'm using the [Go Track on Exercism](https://exercism.org/tracks/go) as the main source of structured exercises for this repository.
+
+Each directory represents an exercise completed during the learning journey:
 
 ```text
 go-learning/
-├── exercism/
-│   └── ...
-├── experiments/
-│   └── ...
-├── projects/
-│   └── ...
+├── hello-world/
+├── ...
 └── README.md
 ```
 
-### 🧩 `exercism`
+The goal isn't simply to solve the challenges, but to understand **Go-specific concepts, conventions, and idiomatic solutions**.
 
-Solutions from the [Go Track on Exercism](https://exercism.org/tracks/go).
-
-The focus isn't only on solving each challenge, but on understanding Go-specific concepts, conventions, and increasingly idiomatic approaches.
-
----
-
-### 🧪 `experiments`
-
-Small, focused experiments used to explore Go concepts and standard library features.
-
-Topics may include:
-
-* Structs and methods
-* Interfaces
-* Pointers
-* Error handling
-* Generics
-* Goroutines
-* Channels
-* Context
-* Mutexes and synchronization
-* HTTP servers and clients
-* Testing and benchmarks
-* JSON and data serialization
-* Database access
-
----
-
-### 🚀 `projects`
-
-Larger projects where concepts explored in exercises and experiments are applied to real-world backend problems.
-
-Areas I'm particularly interested in exploring:
-
-* REST APIs
-* Microservices
-* Concurrent systems
-* Event-driven architectures
-* Background workers
-* PostgreSQL integrations
-* Cloud-native services
-* Containerized applications
+As I progress, solutions may be revisited and improved as my understanding of the language evolves.
 
 ---
 
 ## 🧠 Learning Roadmap
 
-### Go Fundamentals
+### Fundamentals
 
-* [ ] Syntax and conventions
 * [ ] Packages and modules
+* [ ] Variables and constants
+* [ ] Functions
 * [ ] Arrays and slices
 * [ ] Maps
 * [ ] Structs
@@ -98,11 +58,11 @@ Areas I'm particularly interested in exploring:
 
 * [ ] Interfaces
 * [ ] Composition
-* [ ] Error wrapping
 * [ ] `defer`
+* [ ] Error wrapping
 * [ ] Generics
 * [ ] Standard library
-* [ ] Go project structure
+* [ ] Go project conventions
 * [ ] Dependency management
 
 ### Testing & Quality
@@ -124,7 +84,7 @@ Areas I'm particularly interested in exploring:
 * [ ] Mutexes
 * [ ] WaitGroups
 * [ ] Worker pools
-* [ ] Concurrency patterns
+* [ ] Common concurrency patterns
 
 ### Backend Engineering
 
@@ -135,7 +95,7 @@ Areas I'm particularly interested in exploring:
 * [ ] Database transactions
 * [ ] Authentication
 * [ ] Configuration
-* [ ] Logging
+* [ ] Structured logging
 * [ ] Graceful shutdown
 
 ### Cloud Native
@@ -145,12 +105,30 @@ Areas I'm particularly interested in exploring:
 * [ ] Observability
 * [ ] Background workers
 * [ ] Event-driven services
-* [ ] Cloud Run
+* [ ] Google Cloud Run
 * [ ] Kubernetes fundamentals
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🔬 Beyond Exercism
+
+Exercism is the starting point, not the end goal.
+
+As I become more comfortable with Go, I'll use separate repositories for experiments and larger projects involving topics such as:
+
+* Concurrent processing
+* REST APIs
+* PostgreSQL
+* Background workers
+* Event-driven architectures
+* Microservices
+* Cloud-native applications
+
+These projects will focus on applying Go to real-world software engineering problems rather than isolated coding exercises.
+
+---
+
+## 🛠️ Stack
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" title="Go" alt="Go" />
@@ -164,15 +142,7 @@ Areas I'm particularly interested in exploring:
 
 ---
 
-## 📈 Progress
-
-This repository will evolve as I progress through exercises, experiments, and projects.
-
-The objective isn't to collect solved challenges, but to document the transition from an experienced backend engineer in other ecosystems to becoming comfortable building **idiomatic, production-quality Go applications**.
-
----
-
-## 🔗 Learning Resources
+## 📚 Resources
 
 * [Exercism — Go Track](https://exercism.org/tracks/go)
 * [A Tour of Go](https://go.dev/tour/)
